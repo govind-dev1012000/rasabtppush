@@ -1,0 +1,220 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: faq/company_info
+  examples: |
+    - general information about the firm
+    - general information about the company
+    - about the firm in general
+    - about the company in general
+    - general information
+    - in general
+
+- intent: faq/creator
+  examples: |
+    - who created the firm?
+    - who created the company?
+    - who is the founder?
+    - who is the creator?
+    - who is the designer?
+    - who is the inventor?
+    - who is the maker?
+    - who is the author?
+
+- intent: faq/customer_service_number
+  examples: |
+    - what is the number of the customer service?
+    - what is the number of the customer care?
+    - what is the number of the client service?
+    - what is the number of the service department?
+    - what's the number of the customer service?
+    - customer service number?
+    - what's the number of the customer care?
+    - customer care number?
+
+- intent: faq/when_was_created
+  examples: |
+    - when was the company created?
+    - when was the firm founded?
+    - when was the company founded?
+    - firm creation time?
+    - company creation time?
+    - firm foundation time?
+    - company foundation time?
+    - how long ago was the firm created?
+    - how long ago was the company created?
+    - how long ago was the firm founded?
+    - how long ago was the company founded?
+
+- intent: faq/track_order
+  examples: |
+    - how do I track my order
+    - where can I track my order
+    - can you track my order
+    - order tracking
+    - process for tracking my prorderduct
+
+- intent: faq/return_policy
+  examples: |
+    - what are rules for returning a product
+    - how do I return a product
+    - am I eligible to return a product
+    - when can I return something
+    - guidelines for returning a product
+    - return policy
+
+- intent: faq/shipping_duration
+  examples: |
+    - how much time does it take for delivery
+    - what's shipping duration
+    - shipping time and duration
+    - how long does it take for product to ship
+    - when will my product be delivered
+
+- intent: faq/payment_modes
+  examples: |
+    - what are payment modes you support
+    - do you support UPI payments?
+    - can I pay on delivery?
+    - is COD available
+    - wallet payment mode
+
+- intent: faq/change_account_info
+  examples: |
+    - change my account information
+    - change my account info
+    - change my information
+    - change my info
+    - i want to change my account information
+    - i want to change my account info
+    - i want to change my information
+    - i want to change my info
+    - can i change my account information
+    - can i change my account info
+    - can i change my information
+    - can i change my info
+
+- intent: additionalHelp
+  examples: |
+    - i need more help
+    - need more help
+    - more help
+    - additional help
+    - further help
+    - i need more help please
+    - need more help please
+    - more help please
+    - additional help please
+    - further help please
+    - i need more help pls
+    - need more help pls
+    - more help pls
+    - additional help pls
+    - further help pls
+    - i want more help
+    - i want additional help
+    - i want further help
+    - i want some more help
+    - i want some additional help
+    - i want some further help
+    - i want more help please
+    - i want additional help please
+    - i want further help please
+    - i want more help pls
+    - i want additional help pls
+    - i want further help pls
+    - i need something else
+    - i need smtg else
+    - i want something else
+    - i want smtg else
+    - something else
+    - smtg else
